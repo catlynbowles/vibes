@@ -2,7 +2,9 @@ html {
   height: 100vh;
 }
 
-body, #root, .homepage {
+body,
+#root,
+.homepage {
   background: #1f1f1f;
   width: 100%;
   height: 100%;
@@ -22,3 +24,92 @@ body, #root, .homepage {
   color: #e67b46;
   text-shadow: 0 0 4px #e67b46;
 }
+
+.page-container {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.checkin-buttons p {
+  margin: 0;
+  font-size: 28px;
+  line-height: 9rem;
+  color: #3fd560;
+  text-shadow: 0 0 4px #3fd560;
+}
+
+.refresh p {
+  color: #a020f0;
+  text-shadow: 0 0 4px #a020f0;
+}
+
+.refresh:hover {
+  cursor: pointer;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.subtitle {
+  color: white;
+  font-weight: 300;
+  text-shadow: 0 0 4px white;
+}
+
+.learn-more p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 9rem;
+  color: #3fd560;
+  text-shadow: 0 0 4px #3fd560;
+}
+
+.options-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7rem;
+}
+
+@media (max-width: 600px) {
+  .button-container {
+    flex-direction: column;
+  }
+}
+
+.about {
+  margin: 2rem;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.description {
+  color: white;
+  font-weight: 300;
+  text-shadow: 0 0 4px white;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-container {
+  width: 50%;
+  text-indent: 30px;
+  line-height: 1.8;
+}
+
