@@ -1,5 +1,5 @@
 import React from 'react'
-import About from '../src/Components/About/About';
+import About from '@/components/About/About';
 
 export default function Info() {
   return <About />;

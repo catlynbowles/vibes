@@ -1,5 +1,5 @@
-import Homepage from "../src/Components/Homepage/Homepage";
-import Header from "../src/Components/Header/Header";
+import Homepage from "@/components/Homepage/Homepage";
+import Header from "@/components/Header/Header";
 
 function App() {
   return (
