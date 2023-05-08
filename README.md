@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rocky Mountain Vibes
 
-## Getting Started
+## Deploy:
+- [Deployed Link](https://rcky-vibes.herokuapp.com/)
 
-First, run the development server:
+## Table of Contents
+- [Introduction](#introduction)
+- [Set Up](#set-up)
+- [Features](#features)
+- [Future Features](#future-features)
+- [Reflection](#reflection)
+- [Technologies](#technologies)
+- [Contributor](#contributors)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Introduction
+This is an application to match a user's feeling with images and pictures scraped from the We Feel Fine API.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Set Up
+1. Clone this repository.
+2. `cd` into the directory.
+3. Run `npm install`.
+4. Start the server by running `npm run dev` and view at http://localhost:3000/.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Features
+- Displays seven primary emotions for the user to select.
+- User can select their current emotional state and view pictures posted from others feeling the same way. On hover, the tweet matched with the picture will be displayed.
+- A user can select 'Refresh' to view more emotions. 
+- User can close detail window and go back to the landing page. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Future Features
+- Add playlists recommended to user based on emotional selection.
+- Find colors associated with each emotion to display upon selection.
+- Each time a user selects an emotion, post to another api to keep track of current selections happening on the site. 
 
-## Learn More
+### Reflection
+This project was migrated from a React app to Next.js, which came with it's share of challenges. I also learned how to work with xml for the first time, and had a lot of fun playing with the data and the colors! 
 
-To learn more about Next.js, take a look at the following resources:
+### Technologies
+- React
+- Next.js
+- JSX
+- CSS
+- Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Contributors
+- [Catlyn Bowles](https://www.linkedin.com/in/catlyn-bowles/)
