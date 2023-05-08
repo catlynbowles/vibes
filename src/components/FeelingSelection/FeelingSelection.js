@@ -44,7 +44,3 @@ const FeelingSelection = () => {
 };
 
 export default FeelingSelection;
-
-FeelingSelection.propTypes = {
-  primaryEmotions: PropTypes.array.isRequired,
-};
