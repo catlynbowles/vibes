@@ -10,7 +10,6 @@ import { useRouter } from "next/router";
 
 const CheckIn = () => {
   const router = useRouter();
-  console.log(router.query);
 
   const [error, setError] = useState(null);
   const [postcards, setPostcards] = useState([]);
@@ -34,9 +33,8 @@ const CheckIn = () => {
 
   useEffect(() => {
     if (!postcards.length) {
-      getData(
-        `http://api.wefeelfine.org:8080/ShowFeelings?display=xml&returnfields=sentence,imageid,postdate&feeling=${router.query.name}&limit=500&extraimages=8`
-      )
+      getData()
+      // `http://api.wefeelfine.org:8080/ShowFeelings?display=xml&returnfields=sentence,imageid,postdate&feeling=${router.query.name}&limit=500&extraimages=8`
         .then((data) => {
           if (data) {
             setCollection(data?.feelings?.feeling);
@@ -49,7 +47,7 @@ const CheckIn = () => {
           setError(err.message);
         });
     }
-  }, [postcards]);
+  }, [postcards, router.query.name]);
 
   return (
     <section className="page-container">

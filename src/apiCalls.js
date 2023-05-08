@@ -17,7 +17,6 @@ export const getData = async (dataSearch) => {
   let json = null;
   const response = await fetch(url, options);
   if (!response.ok) {
-    console.log(response);
     if (response.status === 429) {
       throw new Error(`This website runs on limited API requests, and the quota has been met for the day! Try back with tomorrow's feelings!`)
     }

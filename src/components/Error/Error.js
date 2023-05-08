@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Monster from "../Monster/Monster";
 
 const Error = ({ text }) => {
-  console.log(text);
   const errorStyle = {
     color: "white",
     fontSize: "20px",
@@ -13,14 +13,15 @@ const Error = ({ text }) => {
     alignItems: "center",
     textAlign: "center",
     justifyContent: "center",
+    width: "80%",
   };
 
   return (
     <section style={errorContainer}>
       <p className="error-text" style={errorStyle}>
-        <img src="http://i.stack.imgur.com/SBv4T.gif" height="30" alt=""/>
+        <Monster />
         Looks like we're having trouble loading this. ({text})
-        <img src="http://i.stack.imgur.com/SBv4T.gif" height="30" alt=""/>
+        <Monster />
       </p>
     </section>
   );

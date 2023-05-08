@@ -13,6 +13,7 @@ export default function Gallery({ postcards }) {
             sentence={postcard.$.sentence}
             imageid={postcard.$.imageid}
             postdate={postcard.$.postdate}
+            key={postcard.$.imageid}
           />
         );
       });
