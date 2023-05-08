@@ -16,8 +16,13 @@ const LoadingIcon = () => {
   return (
     <div style={loadingContainer}>
       <p style={fontStyle}>Loading...</p>
-      <Image src='http://i.stack.imgur.com/SBv4T.gif' height='30' alt=""/>
+      {/* <Image
+        src="http://i.stack.imgur.com/SBv4T.gif"
+        height="30"
+        width={30}
+        alt=""
+      /> */}
     </div>
-  )
+  );
 }
 export default LoadingIcon;

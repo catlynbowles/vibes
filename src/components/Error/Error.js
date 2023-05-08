@@ -19,9 +19,19 @@ const Error = ({ text }) => {
   return (
     <section style={errorContainer}>
       <p className="error-text" style={errorStyle}>
-        <Image src="http://i.stack.imgur.com/SBv4T.gif" height="30" alt=""/>
+        {/* <Image
+          src="http://i.stack.imgur.com/SBv4T.gif"
+          height="30"
+          width={30}
+          alt=""
+        /> */}
         Looks like we're having trouble loading this. ({text})
-        <Image src="http://i.stack.imgur.com/SBv4T.gif" height="30" alt=""/>
+        {/* <Image
+          src="http://i.stack.imgur.com/SBv4T.gif"
+          height="30"
+          width={30}
+          alt=""
+        /> */}
       </p>
     </section>
   );
