@@ -16,7 +16,7 @@ export default function About() {
             sometimes a place we go in solace to zone out from our emotions, I
             have always wanted to create a tool to help people feel less alone
             in that space. This idea was inspired by a very interesting and
-            unique API called the We Feel API. It appears this API is not
+            unique API called the We Feel Fine API. It appears this API is not
             currently being maintained, at least not since 2013/2014 based on
             the data I'm able to retrieve, but the API works by pulling
             information from tweets, and allows queries to connect to emotions,

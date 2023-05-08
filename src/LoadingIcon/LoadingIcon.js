@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import Monster from '@/components/Monster/Monster'
 
 const LoadingIcon = () => {
   const fontStyle = {
@@ -16,12 +16,7 @@ const LoadingIcon = () => {
   return (
     <div style={loadingContainer}>
       <p style={fontStyle}>Loading...</p>
-      {/* <Image
-        src="http://i.stack.imgur.com/SBv4T.gif"
-        height="30"
-        width={30}
-        alt=""
-      /> */}
+      <Monster />
     </div>
   );
 }

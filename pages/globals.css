@@ -108,8 +108,8 @@ body,
 }
 
 .description-container {
-  width: 50%;
+  width: 80%;
   text-indent: 30px;
   line-height: 1.8;
+  font-size: large;
 }
-

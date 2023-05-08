@@ -6,7 +6,7 @@ import "./Button.css";
 const Button = ({ name, color }) => {
   return (
     // href={{ pathname: '/search', query: { keyword: 'this way' } }}
-    <Link href={{pathname: `/feeling/${name}`, name: name}} style={{ textDecoration: "none" }}>
+    <Link href={{pathname: `/feeling/${name}`, query: name}} style={{ textDecoration: "none" }}>
       <div
         style={{
           color: color,
