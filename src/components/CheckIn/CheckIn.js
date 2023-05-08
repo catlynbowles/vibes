@@ -49,7 +49,7 @@ const CheckIn = () => {
           setError(err.message);
         });
     }
-  }, [postcards]);
+  }, [postcards, router.query.name]);
 
   return (
     <section className="page-container">

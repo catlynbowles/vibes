@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Image from "next/image";
 
 const Error = ({ text }) => {
   console.log(text);
@@ -18,9 +19,9 @@ const Error = ({ text }) => {
   return (
     <section style={errorContainer}>
       <p className="error-text" style={errorStyle}>
-        <img src="http://i.stack.imgur.com/SBv4T.gif" height="30" alt=""/>
+        <Image src="http://i.stack.imgur.com/SBv4T.gif" height="30" alt=""/>
         Looks like we're having trouble loading this. ({text})
-        <img src="http://i.stack.imgur.com/SBv4T.gif" height="30" alt=""/>
+        <Image src="http://i.stack.imgur.com/SBv4T.gif" height="30" alt=""/>
       </p>
     </section>
   );
