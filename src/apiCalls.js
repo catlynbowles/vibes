@@ -1,21 +1,23 @@
 var parseString = require("xml2js").parseString;
 
 export const getData = async (dataSearch) => {
-  const url = "https://cors-proxy3.p.rapidapi.com/api";
-  const options = {
-    method: "POST",
-    headers: {
-      "content-type": "application/x-www-form-urlencoded",
-      "X-RapidAPI-Key": "3bea32400cmsh3e321627a520f18p12bc62jsn79614440dfdd",
-      "X-RapidAPI-Host": "cors-proxy3.p.rapidapi.com",
-    },
-    body: new URLSearchParams({
-      "my-url": dataSearch,
-    }),
-  };
+  // const url = "https://cors-proxy3.p.rapidapi.com/api";
+  // const options = {
+  //   method: "POST",
+  //   headers: {
+  //     "content-type": "application/x-www-form-urlencoded",
+  //     "X-RapidAPI-Key": "3bea32400cmsh3e321627a520f18p12bc62jsn79614440dfdd",
+  //     "X-RapidAPI-Host": "cors-proxy3.p.rapidapi.com",
+  //   },
+  //   body: new URLSearchParams({
+  //     "my-url": dataSearch,
+  //   }),
+  // };
 
   let json = null;
-  const response = await fetch(url, options);
+  const response = await fetch(
+    "https://cors-anywhere.herokuapp.com/" + dataSearch
+  );
   if (!response.ok) {
     console.log(response);
     if (response.status === 429) {
