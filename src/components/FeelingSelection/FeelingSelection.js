@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../Button/Button";
-import "./FeelingSelection.css";
 import PropTypes from "prop-types";
 import Link from "next/link";
 
@@ -15,6 +14,7 @@ const primaryEmotions = [
 ];
 
 const FeelingSelection = () => {
+  console.log("you have permission to Feel What You Feel !")
   const emotionalButtons = primaryEmotions.map((emotion) => {
     return (
       <Button

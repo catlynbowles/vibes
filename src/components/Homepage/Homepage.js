@@ -1,5 +1,6 @@
 import "./Homepage.css";
 import FeelingSelection from "../FeelingSelection/FeelingSelection";
+import Head from "next/head";
 
 const Homepage = () => {
   return (

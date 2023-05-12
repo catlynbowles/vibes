@@ -24,7 +24,6 @@ export const getData = async (dataSearch) => {
   }
   const xmlData = await response.text();
   parseString(xmlData, function (err, result) {
-    console.dir(result, "result");
     json = result;
   });
   return json;

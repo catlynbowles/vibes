@@ -1,5 +1,4 @@
 import React from "react";
-import "./About.css";
 import Link from "next/link";
 import Header from "../Header/Header";
 

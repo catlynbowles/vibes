@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 import Link from "next/link";
-import "./Button.css";
+
 
 const Button = ({ name, color }) => {
   return (

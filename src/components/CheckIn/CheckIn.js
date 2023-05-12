@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getData } from "../../apiCalls";
 import Link from "next/link";
-import "./CheckIn.css";
 import "../Button/Button.css";
 import PropTypes from "prop-types";
 import Gallery from "../Gallery/Gallery";
@@ -33,8 +32,10 @@ const CheckIn = () => {
 
   useEffect(() => {
     if (!postcards.length) {
-      getData()
-      // `http://api.wefeelfine.org:8080/ShowFeelings?display=xml&returnfields=sentence,imageid,postdate&feeling=${router.query.name}&limit=500&extraimages=8`
+      getData(
+        `http://api.wefeelfine.org:8080/ShowFeelings?display=xml&returnfields=sentence,imageid,postdate&feeling=${router.query.name}&limit=500&extraimages=8`
+      )
+        // `http://api.wefeelfine.org:8080/ShowFeelings?display=xml&returnfields=sentence,imageid,postdate&feeling=${router.query.name}&limit=500&extraimages=8`
         .then((data) => {
           if (data) {
             setCollection(data?.feelings?.feeling);
@@ -77,7 +78,3 @@ const CheckIn = () => {
 };
 
 export default CheckIn;
-
-CheckIn.propTypes = {
-  id: PropTypes.string.isRequired,
-};
