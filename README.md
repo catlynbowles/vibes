@@ -1,11 +1,14 @@
-# Rocky Mountain Vibes
+# 🔮 Vibecheck ✨
+
+![Screen Shot 2023-05-12 at 12 46 24 PM](https://github.com/catlynbowles/vibes/assets/98493391/001490d7-c1e0-431d-b2fd-6bd501a214f6)
+
+<img width="1394" alt="Screen Shot 2023-05-12 at 12 47 07 PM" src="https://github.com/catlynbowles/vibes/assets/98493391/b852cc1d-6816-4f51-a356-4fe1805fedc5">
 
 ## Deploy:
-- [Deployed Link](https://rcky-vibes.herokuapp.com/)
+- [Deployed Link](https://vibes-fawn.vercel.app/)
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Set Up](#set-up)
 - [Features](#features)
 - [Future Features](#future-features)
 - [Reflection](#reflection)
@@ -14,12 +17,6 @@
 
 ### Introduction
 This is an application to match a user's feeling with images and pictures scraped from the We Feel Fine API.
-
-### Set Up
-1. Clone this repository.
-2. `cd` into the directory.
-3. Run `npm install`.
-4. Start the server by running `npm run dev` and view at http://localhost:3000/.
 
 ### Features
 - Displays seven primary emotions for the user to select.
@@ -33,7 +30,7 @@ This is an application to match a user's feeling with images and pictures scrape
 - Each time a user selects an emotion, post to another api to keep track of current selections happening on the site. 
 
 ### Reflection
-This project was migrated from a React app to Next.js, which came with it's share of challenges. I also learned how to work with xml for the first time, and had a lot of fun playing with the data and the colors! 
+This project was migrated from a React app to Next.js, which came with it's share of challenges. Because of my determination to work with this API, I also learned how to work with xml for the first time, worked through a CORS error using a proxy server, and had a lot of fun playing with the data and colors!
 
 ### Technologies
 - React
