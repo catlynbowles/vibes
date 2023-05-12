@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import "./Postcard.css";
 
 export default function Postcard({ sentence, imageid, postdate }) {
   const formFullImage = (postdate, imageid) => {
@@ -13,7 +12,7 @@ export default function Postcard({ sentence, imageid, postdate }) {
 
   return (
     <div className="postcard-wrapper">
-      <Image className="postcard" src={formFullImage(postdate, imageid)} alt=""/>
+      <Image className="postcard" src={formFullImage(postdate, imageid)} alt="" height={100} width={100}/>
       <p className="sentence">{sentence}</p>
     </div>
   );

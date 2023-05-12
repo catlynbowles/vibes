@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../Button/Button";
-import "./FeelingSelection.css";
 import PropTypes from "prop-types";
 import Link from "next/link";
 
