@@ -14,6 +14,7 @@ const primaryEmotions = [
 ];
 
 const FeelingSelection = () => {
+  console.log("you have permission to Feel What You Feel !")
   const emotionalButtons = primaryEmotions.map((emotion) => {
     return (
       <Button
