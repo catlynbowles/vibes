@@ -1,8 +1,5 @@
 # 🔮 Vibecheck ✨
-
-![Screen Shot 2023-05-12 at 12 46 24 PM](https://github.com/catlynbowles/vibes/assets/98493391/001490d7-c1e0-431d-b2fd-6bd501a214f6)
-
-<img width="1394" alt="Screen Shot 2023-05-12 at 12 47 07 PM" src="https://github.com/catlynbowles/vibes/assets/98493391/b852cc1d-6816-4f51-a356-4fe1805fedc5">
+![7MiLSx](https://github.com/catlynbowles/vibes/assets/98493391/074d22fd-bd4b-458a-9ae0-33d8b97631c3)
 
 ## Deploy:
 - [Deployed Link](https://vibes-fawn.vercel.app/)
@@ -17,6 +14,8 @@
 
 ### Introduction
 This is an application to match a user's feeling with images and pictures scraped from the We Feel Fine API.
+
+![Screen Shot 2023-05-12 at 12 46 24 PM](https://github.com/catlynbowles/vibes/assets/98493391/001490d7-c1e0-431d-b2fd-6bd501a214f6)
 
 ### Features
 - Displays seven primary emotions for the user to select.
